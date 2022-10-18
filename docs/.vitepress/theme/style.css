@@ -20,3 +20,7 @@ h1.name {
 p.text {
   font-family: 'Noto Serif TC'
 }
+
+.jbd-tc{
+  font-family: 'Noto Serif TC',"Noto Serif SC"
+}

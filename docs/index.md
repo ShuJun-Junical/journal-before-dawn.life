@@ -7,7 +7,7 @@ hero:
   actions:
   - theme: brand
     text: 开始阅读
-    link: /guide/what-is-vitepress
+    link: /preface/about-this-site
   - theme: alt
     text: 我的生活随笔
     link: https://imjz.net/
