@@ -21,6 +21,10 @@ p.text {
   font-family: 'Noto Serif TC'
 }
 
-.jbd-tc{
-  font-family: 'Noto Serif TC',"Noto Serif SC"
+.jbd-tc {
+  font-family: 'Noto Serif TC', "Noto Serif SC"
+}
+
+.vp-doc>div>p {
+  text-indent: 2em;
 }
