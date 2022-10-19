@@ -23,7 +23,7 @@ export default defineConfig({
     outDir: '../dist',
     themeConfig: {
         outlineTitle:'本页目录',
-        siteTitle: '曙前杂记',
+        // siteTitle: '曙前杂记',
         footer: {
             message: '琼ICP备2022001156号-2',
             copyright: '本站文章禁止转载 | 版权所有 © 2022 纾浚'
