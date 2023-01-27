@@ -10,7 +10,7 @@ const { site } = useData()
     <h1 class="title">页面不存在</h1>
     <div class="divider" />
     <blockquote class="quote">
-      你来到了世界的尽头。
+      你来到了世界的尽头
     </blockquote>
 
     <div class="action">
