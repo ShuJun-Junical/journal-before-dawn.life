@@ -1,4 +1,20 @@
 import { defineConfig } from 'vitepress';
+import fs from 'fs';
+import path from 'path';
+
+function getList(name) {
+  let basePath = path.resolve(__dirname, '../' + name + '/');
+  let files = fs.readdirSync(basePath);
+  let list = [];
+  files.forEach(i => {
+    let file = fs.readFileSync(path.join(basePath, i), { encoding: 'utf-8' });
+    list.push({
+      text: (/^\# (.*)\n/.exec(file) || [, i.slice(0, -3)])[1],
+      link: '/' + name + '/' + i.slice(0, -3),
+    });
+  });
+  return list;
+}
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -22,11 +38,10 @@ export default defineConfig({
       next: '下一篇',
     },
     sidebar: [
-      // {
-      //   text: '前言',
-      //   collapsible: true,
-      //   items: getList('preface'),
-      // },
+      {
+        text: '前言',
+        items: getList('preface'),
+      },
     ],
 
     // socialLinks: [{ icon: 'github', link: 'https://github.com/vuejs/vitepress' }],

@@ -149,3 +149,7 @@ h1.name {
 p.text {
   font-family: 'Noto Serif TC', 'Noto Serif SC', ui-serif, serif, system-ui;
 }
+
+.vp-doc > div > p {
+  text-indent: 2em;
+}
