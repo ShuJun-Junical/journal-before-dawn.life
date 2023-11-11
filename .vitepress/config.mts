@@ -2,15 +2,15 @@ import { defineConfig } from 'vitepress';
 import fs from 'fs';
 import path from 'path';
 
-function getList(name) {
+function getList(name: string) {
   let basePath = path.resolve(__dirname, '../' + name + '/');
   let files = fs.readdirSync(basePath);
-  let list = [];
+  let list: { text: string; link: string }[] = [];
   files.forEach(i => {
     let file = fs.readFileSync(path.join(basePath, i), { encoding: 'utf-8' });
     list.push({
-      text: (/^\# (.*)\n/.exec(file) || [, i.slice(0, -3)])[1],
-      link: '/' + name + '/' + i.slice(0, -3),
+      text: (/^\# (.*)\n/.exec(file) || [, i.slice(0, -3)])[1] as string,
+      link: `/${name}/${i.slice(0, -3)}`,
     });
   });
   return list;
@@ -21,6 +21,7 @@ export default defineConfig({
   lang: 'zh-Hans-CN',
   title: '曙前杂记',
   description: '黎明之前，至暗之后。',
+  // cleanUrls: true,
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     i18nRouting: false,
