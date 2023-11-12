@@ -15,8 +15,8 @@ jobs:
 
       - name: Install and Build 🔧
         run: |
-          pnpm i
-          pnpm build
+          npm i
+          npm build
 
       - name: Install coscmd
         run: sudo pip install coscmd
