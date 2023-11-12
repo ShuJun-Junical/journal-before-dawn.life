@@ -26,7 +26,7 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     i18nRouting: false,
     siteTitle: '曙前杂记',
-    outlineTitle: '本页目录',
+    outlineTitle: '目录',
     darkModeSwitchLabel: '切换夜间模式',
     returnToTopLabel: '回到顶部',
     sidebarMenuLabel: '菜单',
