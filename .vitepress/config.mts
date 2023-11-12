@@ -27,12 +27,12 @@ export default defineConfig({
     i18nRouting: false,
     siteTitle: '曙前杂记',
     outlineTitle: '目录',
-    darkModeSwitchLabel: '切换夜间模式',
+    darkModeSwitchLabel: '暗色模式',
     returnToTopLabel: '回到顶部',
     sidebarMenuLabel: '菜单',
     footer: {
       message: '琼ICP备2022001156号-2',
-      copyright: '本站文章禁止转载 | 版权所有 © 2022 纾浚',
+      copyright: '本站文章禁止转载 | 版权所有 © 2023 纾浚',
     },
     docFooter: {
       prev: '上一篇',
@@ -42,6 +42,10 @@ export default defineConfig({
       {
         text: '前言',
         items: getList('preface'),
+      },
+      {
+        text: '朋友们',
+        items: getList('friends'),
       },
     ],
 
