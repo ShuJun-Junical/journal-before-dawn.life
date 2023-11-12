@@ -48,6 +48,12 @@ export default defineConfig({
         items: getList('friends'),
       },
     ],
+    notFound: {
+      title: '这个页面不存在',
+      quote: '但是，如果你不改变方向，努力寻找，你最终会到达想去的地方。',
+      linkLabel: '回到首页',
+      linkText: '返回首页',
+    },
 
     // socialLinks: [{ icon: 'github', link: 'https://github.com/vuejs/vitepress' }],
   },
