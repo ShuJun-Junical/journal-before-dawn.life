@@ -196,3 +196,7 @@ div.main > p.text {
 .vp-doc > div > p {
   text-indent: 2em;
 }
+
+.vp-doc > div > ul {
+  padding-left: 3em;
+}
