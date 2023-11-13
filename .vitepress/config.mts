@@ -22,7 +22,7 @@ export default defineConfig({
   lang: 'zh-Hans-CN',
   title: '曙前杂记',
   description: '黎明之前，至暗之后。',
-  cleanUrls: true,
+  // cleanUrls: true,
   srcExclude: ['**/README.md', '**/TODO.md'],
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
