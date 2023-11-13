@@ -1,1 +1,0 @@
-import{_ as t,o as e,c as r,Q as a}from"./chunks/framework.fd8801d6.js";const g=JSON.parse('{"title":"中文文案排版指北","description":"","frontmatter":{},"headers":[],"relativePath":"typo-test.md","filePath":"typo-test.md"}'),o={name:"typo-test.md"},d=a("",94),p=[d];function l(n,c,h,i,u,s){return e(),r("div",null,p)}const k=t(o,[["render",l]]);export{g as __pageData,k as default};
