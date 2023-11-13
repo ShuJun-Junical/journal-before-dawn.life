@@ -1,4 +1,5 @@
 import { defineConfig } from 'vitepress';
+import markdownItFootnote from 'markdown-it-footnote';
 import fs from 'fs';
 import path from 'path';
 
@@ -57,5 +58,10 @@ export default defineConfig({
     },
 
     // socialLinks: [{ icon: 'github', link: 'https://github.com/vuejs/vitepress' }],
+  },
+  markdown: {
+    config: md => {
+      md.use(markdownItFootnote);
+    },
   },
 });
