@@ -22,7 +22,7 @@ export default defineConfig({
   lang: 'zh-Hans-CN',
   title: '曙前杂记',
   description: '黎明之前，至暗之后。',
-  cleanUrls: true,
+  cleanUrls: false,
   srcExclude: ['**/README.md', '**/TODO.md'],
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
@@ -33,8 +33,9 @@ export default defineConfig({
     returnToTopLabel: '回到顶部',
     sidebarMenuLabel: '菜单',
     footer: {
-      message: '琼ICP备2022001156号-2',
-      copyright: '本站文章禁止转载 | 版权所有 © 2023 纾浚',
+      message: '<a href="https://beian.miit.gov.cn/" target="_blank">琼ICP备2022001156号-2</a>',
+      copyright:
+        '<a href="/preface/01-about-this-site.html#关于版权和转载">本站文章禁止转载 | 版权所有 © 2023 纾浚</a>',
     },
     docFooter: {
       prev: '上一篇',
