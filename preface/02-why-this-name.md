@@ -22,4 +22,4 @@
 
 ## 原《曙前杂记》封面设计
 
-[WIP]
+![《曙前杂记》活页本封面扫描件](/img/preface/origin-cover.webp)
