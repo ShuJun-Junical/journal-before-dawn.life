@@ -10,7 +10,7 @@ function getList(name: string) {
   files.forEach(i => {
     let file = fs.readFileSync(path.join(basePath, i), { encoding: 'utf-8' });
     list.push({
-      text: (/^\# (.*)\n/.exec(file) || [, i.slice(0, -3)])[1] as string,
+      text: (/\# (.*)\n/.exec(file) || [, i.slice(0, -3)])[1] as string,
       link: `/${name}/${i.slice(0, -3)}`,
     });
   });
