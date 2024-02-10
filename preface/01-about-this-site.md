@@ -81,12 +81,12 @@
 
 ## 致谢
 
-感谢在高中阶段给予我支持和鼓励的朋友们，在此为保护隐私不再一一列举你们的姓名。
+感谢在高中阶段给予我支持和鼓励的朋友们，在此不再一一列举你们的姓名。
 
 感谢在高中阶段授予我知识和给我提供帮助的一众老师们。
 
-感谢本网站项目中用到的开源项目的开发团队，感谢 [Vitepress](https://vitepress.dev/) 团队的站点生成器，让我的网站得以轻松呈现。
+感谢本网站项目中用到的开源项目，感谢 [Vitepress](https://vitepress.dev/) 团队的站点生成器，让我的网站得以轻松呈现。
 
-感谢思源字体团队以及 Adobe 和 Google 制作的[思源宋体](https://source.typekit.com/source-han-serif/cn/)（Source Han Serif, aka. Noto Sans Serif），让本站的文字有极佳的显示效果。
+感谢思源字体团队、Adobe 和 Google 制作的 [思源宋体](https://source.typekit.com/source-han-serif/cn/)（Source Han Serif, aka. Noto Sans Serif），让本站的文字有极佳的显示效果。
 
 <s>感谢 19 级 3 部年级部的打印机给我印了三五包 A4 纸的技术文档，不然我学不会这么多 Web 技术（（</s>
