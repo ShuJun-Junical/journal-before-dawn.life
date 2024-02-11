@@ -200,3 +200,15 @@ div.main > p.text {
 .vp-doc > div > ul {
   padding-left: 3em;
 }
+
+.font-tc {
+  font-family: 'Noto Serif TC', 'Noto Serif SC', ui-serif, serif, system-ui;
+}
+
+.only-dark {
+  display: none;
+}
+
+.dark .only-dark {
+  display: block;
+}
