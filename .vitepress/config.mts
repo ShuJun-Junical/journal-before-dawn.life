@@ -48,12 +48,12 @@ export default defineConfig({
         items: getList('preface'),
       },
       {
-        text: '朋友们',
-        items: getList('friends'),
-      },
-      {
         text: '相识相遇',
         items: getList('acquaintance'),
+      },
+      {
+        text: '朋友们',
+        items: getList('friends'),
       },
     ],
     notFound: {
