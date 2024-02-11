@@ -33,7 +33,8 @@ export default defineConfig({
     returnToTopLabel: '回到顶部',
     sidebarMenuLabel: '菜单',
     footer: {
-      message: '<a href="https://beian.miit.gov.cn/" target="_blank">琼ICP备2022001156号-2</a>',
+      message:
+        '<a href="https://beian.miit.gov.cn/" target="_blank">琼ICP备2022001156号-2</a>',
       copyright:
         '<a href="/preface/01-about-this-site.html#关于版权和转载">本站文章禁止转载 | 版权所有 © 2023 纾浚</a>',
     },
@@ -49,6 +50,10 @@ export default defineConfig({
       {
         text: '朋友们',
         items: getList('friends'),
+      },
+      {
+        text: '相识相遇',
+        items: getList('acquaintance'),
       },
     ],
     notFound: {
