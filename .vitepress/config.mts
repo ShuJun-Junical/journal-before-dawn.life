@@ -10,7 +10,7 @@ function getList(name: string) {
   files.forEach(i => {
     let file = fs.readFileSync(path.join(basePath, i), { encoding: 'utf-8' });
     list.push({
-      text: (/\# (.*)\n/.exec(file) || [, i.slice(0, -3)])[1] as string,
+      text: (/#\s+(.+)/.exec(file) || [, i.slice(0, -3)])[1] as string,
       link: `/${name}/${i.slice(0, -3)}`,
     });
   });
@@ -50,6 +50,14 @@ export default defineConfig({
       {
         text: '相识相遇',
         items: getList('acquaintance'),
+      },
+      {
+        text: '几件大事',
+        items: getList('event'),
+      },
+      {
+        text:'一些小事',
+        items: getList('trifle'),
       },
       {
         text: '朋友们',

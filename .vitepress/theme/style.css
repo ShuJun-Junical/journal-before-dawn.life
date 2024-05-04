@@ -182,7 +182,7 @@
 
 :root {
   --vp-font-family-base: 'Noto Serif SC', ui-serif, serif, system-ui, 'Apple Color Emoji', 'Segoe UI Emoji',
-    'Segoe UI Symbol', 'Noto Color Emoji';
+    'Segoe UI Symbol', 'Noto Color Emoji' !important;
 }
 
 h1.name {
