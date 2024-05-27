@@ -44,7 +44,7 @@ export default defineConfig({
     },
     sidebar: [
       {
-        text: '前言',
+        text: '写在前面',
         items: getList('preface'),
       },
       {

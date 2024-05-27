@@ -183,14 +183,15 @@
 :root {
   --vp-font-family-base: 'Noto Serif SC', ui-serif, serif, system-ui, 'Apple Color Emoji', 'Segoe UI Emoji',
     'Segoe UI Symbol', 'Noto Color Emoji' !important;
+  --font-tc: 'Noto Serif TC', 'Noto Serif SC', ui-serif, serif, system-ui;
 }
 
 h1.name {
-  font-family: 'Noto Serif TC', 'Noto Serif SC', ui-serif, serif, system-ui;
+  font-family: var(--font-tc);
 }
 
 div.main > p.text {
-  font-family: 'Noto Serif TC', 'Noto Serif SC', ui-serif, serif, system-ui;
+  font-family: var(--font-tc);
 }
 
 .vp-doc > div > p {
@@ -202,7 +203,7 @@ div.main > p.text {
 }
 
 .font-tc {
-  font-family: 'Noto Serif TC', 'Noto Serif SC', ui-serif, serif, system-ui;
+  font-family: var(--font-tc);
 }
 
 .only-dark {
