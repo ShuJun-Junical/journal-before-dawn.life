@@ -28,15 +28,17 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     i18nRouting: false,
     siteTitle: '曙前杂记',
-    outlineTitle: '目录',
+    outline:{
+      label: '目录',
+    },
     darkModeSwitchLabel: '暗色模式',
     returnToTopLabel: '回到顶部',
     sidebarMenuLabel: '菜单',
     footer: {
       message:
-        '<a href="https://beian.miit.gov.cn/" target="_blank">琼ICP备2022001156号-2</a>',
+          '<a href="https://beian.miit.gov.cn/" target="_blank">琼ICP备2022001156号-1</a>',
       copyright:
-        '<a href="/preface/01-about-this-site.html#关于版权和转载">本站文章禁止转载 | 版权所有 © 2023 纾浚</a>',
+          `<a href="/preface/01-about-this-site.html#关于版权和转载">本站文章禁止转载 | 版权所有 © ${new Date().getFullYear()} 纾浚</a>`,
     },
     docFooter: {
       prev: '上一篇',
@@ -65,7 +67,7 @@ export default defineConfig({
       },
     ],
     notFound: {
-      title: '这个页面不存在',
+      title: '页面不存在',
       quote: '但是，如果你不改变方向，努力寻找，你最终会到达想去的地方。',
       linkLabel: '回到首页',
       linkText: '返回首页',
